@@ -41,7 +41,7 @@ function calculate() {
             alas = ${alasCalculated.toFixed(2)}
         `;
     } else {
-        resultText = 'masukin dua angka aja kocak biar ngitung yang ketiga';
+        resultText = 'masukin dua angka kocak biar ngitung yang ketiga';
     }
 
     document.getElementById('result').innerHTML = resultText;
