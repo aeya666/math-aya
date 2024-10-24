@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phytagoras sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="triangle-calculator">
+        <h2>phytagoras sederhana</h2>
+        <div class="triangle">
+            <div class="input-field">
+                <label for="alas">alas:</label>
+                <input type="number" id="alas" placeholder="alas">
+            </div>
+            <div class="input-field">
+                <label for="tinggi">tinggi:</label>
+                <input type="number" id="tinggi" placeholder="tinggi">
+            </div>
+            <div class="input-field">
+                <label for="miring">miring:</label>
+                <input type="number" id="miring" placeholder="miring">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="hitung" onclick="calculate()">Hitung</button>
+            <button id="kembali" onclick="reset()">Kembali</button>
+        </div>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
