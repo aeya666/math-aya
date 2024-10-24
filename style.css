@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,6 +59,6 @@ footer p {
 #result {
     margin-top: 20px;
     font-size: 1.2em;
-    color: blue;
+    color: black;
     text-justify: center;
 }
